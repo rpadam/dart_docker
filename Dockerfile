@@ -7,7 +7,7 @@ MAINTAINER  Raphael Adam <raphael.adam@workiva.com, raphael912003@gmail.com>
 LABEL Description="This image contains the Dart SDK"
 
 ENV CHANNEL stable
-ENV SDK_VERSION latest
+ENV SDK_VERSION 1.16.0
 ENV ARCHIVE_URL https://storage.googleapis.com/dart-archive/channels/$CHANNEL/release/$SDK_VERSION
 ENV PATH $PATH:/usr/lib/dart/bin
 
